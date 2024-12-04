@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+<script src="bootstrap/js/bootstrap.bundle.js"></script>
+
+<link rel="icon" href="S:\HTML Codes\images\Zomato_logo.png">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+<style>
+   .container{
+         margin-left: 450px;
+        height: 500px;
+        align-items:center;
+        justify-content: center;
+        background: radial-gradient(pink,white);
+       }
+       h3{
+         text-align: center;
+         color:blue;
+       }
+       .card{
+         background:radial-gradient(lightblue,green)
+       }
+       .f1{
+         text-align: end;
+       }
+</style>
+
+
+</head>
+<body class="container mt-5">
+   <div  class="row">
+      <div class="col-lg-6">
+         <div class="card mt-2 alert-dismissible">
+            <button class="btn-close" data-bs-dismiss="alert"></button>
+            <div class="card-header">
+               <h3>Register Here</h3>
+            </div>
+            <div class="card-body">
+               <form>
+                  <div class="mt-2 input-group">
+                     <span class="input-group-text"><i class="bi bi-person-fill"></i></span>
+                     <input type="text" placeholder="Username" class="form-control form-control-lg">
+                  </div>
+
+                  <div class="mt-2 input-group">
+                     <span class="input-group-text"><i class="bi bi-key-fill"></i></span>
+                     <input type="password" placeholder="Password" class="form-control form-control-lg">
+                  </div>
+
+                  <div class="mt-2">
+                     <label class="form-label">Gender?</label>
+                  </div>
+
+                  <div class="d-flex">
+                     <div class="mt-2 form-check me-2">
+                        <input type="radio" name="Gender" class="form-check-input"><label class="form-check-label">Male</label>
+                     </div>
+
+                     <div class="mt-2 form-check me-2">
+                        <input type="radio" name="Gender" class="form-check-input"><label class="form-check-label">Female</label>
+                     </div>
+
+                     <div class="mt-2 form-check">
+                        <input type="radio" name="Gender" class="form-check-input" ><label class="form-check-label">Other</label>
+                     </div> 
+                  </div>
+
+                  <div class="mt-2">
+                     <label class="form-label">Date</label>
+                  </div>
+
+                  <div class="mt-2">
+                     <input type="date" class="form-control">
+                  </div>
+
+                  <div class="mt-2">
+                     <label class="form-label">Select Language</label>
+                  </div>
+
+                  <div class="mt-2">
+                     <select class="form-select">
+                        <option>English</option>
+                        <option>Telugu</option>
+                        <option>Hindi</option>
+                     </select>
+                  </div>
+
+                  <div class="mt-2">
+                     Enter Your Age:
+                     <input type="number" placeholder="Age" class="w-100 form-control">
+                  </div>
+
+                  
+
+                  <div class="mt-2">
+                     <label class="form-label">Upload File</label>
+                  </div>
+
+                  <div class="mt-2">
+                     <input type="file" class="form-control">
+                  </div>
+
+                  <div class="mt-2">
+                     <input type="submit" value="Submit" class="btn btn-primary">
+                     <input type="reset" value="Reset" class="btn btn-primary">
+                  </div>
+
+            
+               </form>
+
+            </div>
+
+            <div class="card-footer f1">
+               <button class="btn btn-info">Ok</button>
+               <button class="btn btn-danger">Cancel</button>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+
+
+
+
+
+</body>
+</html>

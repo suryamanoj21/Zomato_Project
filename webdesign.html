@@ -1,0 +1,1241 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Zomato</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    <link rel="icon" href="S:\HTML Codes\images\Zomato_logo.png">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <style>
+        *{
+            margin:0px;
+        }
+        #s1{
+            color:skyblue;
+            position: relative;
+            left:0px;
+            top:200px;
+        }
+        .a1{
+            margin-left: 50%;
+            font-family:italic;
+            font-size: 20px;
+        }
+        h2{
+            font-family: Verdana;
+            font-size: 30px;
+            font-weight: bold;
+        }
+       .c1{
+        color:black;
+        font-size: 30px;
+        font-family:Verdana;
+       }
+       i{
+        align-items: end;
+       }
+       select{
+        width: 200px;
+       }
+       ul{
+        display:flex;
+        justify-content:space-between;
+
+       }
+       .d1{
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+       }
+       .b2{
+        justify-content: space-between;
+       }
+       .card-img-top{
+        object-fit: cover;
+        height: 250px;
+       }
+       .hai{
+        background-color: whitesmoke;
+       }
+       #navbar{
+        background:rgba(200,140,250,0.6);
+        color:white;
+        margin: 20px;
+        top: 0px;
+        
+       }
+       main{
+        width: 1000px;
+        position: sticky;
+        justify-content: space-evenly;
+        justify-content:space-between;
+        justify-content: center;
+        align-items: center;
+    
+       }
+       main input{
+        background: rgba(200,140,250,0.6);
+        border: 1px solid red;
+        width: 200px;
+       }
+       main button{
+        
+        border: none;
+        outline: none;
+        padding: 10px, 20px;
+        font-size: 20px;
+        border-radius: 2px;
+       }
+       main div{
+        margin-top: 20px;
+       }
+       
+    </style>
+
+</head>
+
+<body class="container mt-2 p-2">
+    <div class="row">
+    <div class="w-10 input-group">
+        <h2 class="m-2"><a href="https://www.zomato.com/" class="text-decoration-none text-dark " target="_blank">zomato</a></h2>
+        <span class="input-group-text w-200 rounded-pill"><i class="bi bi-geo-alt-fill text-danger fs-4"></i></span>
+        <select class="input-group-text rounded-pill">
+            <option>Hyderabad</option>
+            <option>Vijayawada</option>
+            <option>Rajahmundry</option>
+            <option>Bangalore</option>
+            <option>Delhi</option>
+            <option>Ongole</option>
+            <option>Visakhapatnam</option>
+            <option>Kadapa</option>
+        </select>
+        <i class="bi bi-search input-group-text rounded-pill"></i>
+        <input type="search" placeholder="Search For Restaurent or dish.." class="form-control align-items-center w-50 input-group-text rounded-pill">
+        <div class="me-3 mt-2">
+            <a href="ZomatoLogin.html" class="text-decoration-none text-secondary a1"><button class="btn btn-white fs-5">Login</button></a>
+        </div>
+        <div class="me-3 mt-2">
+            <a href="ZomatoSignup.html" target="_blank" class="text-decoration-none text-secondary a1"><button class="btn btn-white fs-5">Signup</button></a>
+        </div>
+    </div>
+</div>
+    <br>
+    <br>
+
+    <div class="row mt-4">
+        <div class="col-lg-12">
+            <a href="https://www.zomato.com/hyderabad/dine-out-in-jubilee-hills?dining_payment_enabled_flag=true" class="text-decoration-none" target="_blank">
+            <div id="hello" class="carousel carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="700">
+                        <img src="https://b.zmtcdn.com/data/o2_assets/e067a1cf0d3fe27b366402b98b994e9f1716296909.png" class="image-fluid w-100" >
+                    </div>
+                   
+                    
+                </div>
+                <a class="carousel-control-prev" href="#hello" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#hello" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+        </div>
+    </a>
+    </div>
+
+<br>
+    <main>
+        <div id="navbar">
+            <button>filters</button>
+            <button>Offers</button>
+            <button>Rating: 4.5+</button>
+            <button>Pet Friendly</button>
+            <button>Outdoor Seating</button>
+            <button>Serves Alcohol</button>
+            <button>Open Now</button>
+        </div>
+    </main>
+    
+
+        <div class="mt-2">
+            <marquee class="fs-2  bg-light text-primary">Trending dining out restaurants in Hyderabad...</marquee>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-lg-4">
+            <a href="https://www.zomato.com/hyderabad/moyaaah-banjara-hills" class="text-decoration-none" target="_blank">
+            <div class="card shadow">
+                <div class="card-body">
+                    <img src="https://b.zmtcdn.com/data/pictures/0/20763280/c35f7673a68c607b3f5655d362f53c62_featured_v2.jpg?output-format=webp"class="img-fluid">
+                    <div class="d1">  
+                        <h6>Moyaaah!</h6><span class="badge bg-success">4.7<span class="bi bi-star-fill ms-1"></span></span>
+                    </div>
+                    <div class="d1"> 
+                        <p class="fst-arial">Cafe, Burger, Fast Food,...</p><p>&#8377;1,150 for two</p>
+                    </div>
+                    <div class="d1">
+                        <p>Banjara Hills, Hyderabad.</p><p class="fw-bold">6 km</p>
+                    </div>
+                </div>
+            </div>
+            </a>
+        </div>
+        <div class="col-lg-4">
+            <a href="https://www.zomato.com/hyderabad/farasha-c-lounge-jubilee-hills" class="text-decoration-none" target="_blank">  
+            <div class="card shadow">
+                <div class="card-body">
+                    <img src="https://b.zmtcdn.com/data/pictures/7/91987/cc9765dc92d5635fe08e25e5be7f5cfa_featured_v2.jpg?output-format=webp"class="img-fluid card-img-top">  
+                    <div class="d1">  
+                        <h6>Farasha C Lounge</h6><span class="badge bg-success">4.4<span class="bi bi-star-fill ms-1"></span></span>
+                    </div>
+                    <div class="d1"> 
+                        <p class="fst-arial">Bar Food,Chinese,Italian,...</p><p>&#8377;1,800 for two</p>
+                    </div>
+                    <div class="d1">
+                        <p>Jubliee Hills, Hyderabad</p><p class="fw-bold">1.1 km</p>
+                    </div>  
+                </div>
+            </div>
+            </a> 
+        </div>
+         <div class="col-lg-4">
+            <a href="https://www.zomato.com/hyderabad/makau-jubilee-hills" class="text-decoration-none" target="_blank">
+            <div class="card shadow">
+                <div class="card-body">
+                    <img src="https://b.zmtcdn.com/data/pictures/2/21170172/f37dc70619f41d1b7ef4b2ca264c051e_featured_v2.jpg?output-format=webp" class="img-fluid">
+                    <div class="d1">  
+                        <h6>Makau</h6><span class="badge bg-success">4.2<span class="bi bi-star-fill ms-1"></span></span>
+                    </div>
+                        <div class="d1"> 
+                        <p class="fst-arial">North Indian,Bevarages...</p><p>&#8377;2,200 for two</p>
+                    </div>
+                    <div class="d1">
+                        <p>Road 36,Jubliee Hills,Hyderabad</p><p class="fw-bold">1.1 km</p>
+                    </div>   
+                </div>
+            </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-lg-4">
+            <a href="https://www.zomato.com/hyderabad/aura-cafe-infusion-bar-jubilee-hills" class="text-decoration-none" target="_blank">
+            <div class="card shadow">
+                <div class="card-body">
+                    <img src="https://b.zmtcdn.com/data/pictures/chains/5/18716525/856fb1ce73e3cc436b039e5fd206cd3b_featured_v2.jpg?output-format=webp" class="img-fluid card-img-top">
+                    <div class="d1">  
+                        <h6>Aura Cafe & Imfusion Bar</h6><span class="badge bg-success">4.2<span class="bi bi-star-fill ms-1"></span></span>
+                    </div>
+                        <div class="d1"> 
+                        <p class="fst-arial">Coffee, Italian, Chinese, Orie...</p><p>&#8377;2,000 for two</p>
+                    </div>
+                    <div class="d1">
+                        <p>Jubilee Hills, Hyderabad</p><p class="fw-bold">557 m</p>
+                    </div>   
+                </div>
+            </div>
+            </a>
+        </div>
+        <div class="col-lg-4">
+            <a href="https://www.zomato.com/hyderabad/heart-cup-coffee-jubilee-hills/info" class="text-decoration-none" target="_blank">
+            <div class="card shadow">
+                <div class="card-body">
+                    <img src="https://b.zmtcdn.com/data/pictures/2/96082/f890c48fade20ceacabdccc04ff99fc4_featured_v2.jpg?output-format=webp" class="img-fluid card-img-top">
+                    <div class="d1">  
+                        <h6>Heart Cup Coffee</h6><span class="badge bg-success">4.2<span class="bi bi-star-fill ms-1"></span></span>
+                    </div>
+                        <div class="d1"> 
+                        <p class="fst-arial">Continental, Asian, North Ind..</p><p>&#8377;2,000 for two</p>
+                    </div>
+                    <div class="d1">
+                        <p>Jubilee Hills, Hyderabad</p><p class="fw-bold">622 m</p>
+                    </div>  
+                </div>
+            </div>
+            </a>
+        </div>
+        <div class="col-lg-4">
+            <a href="https://www.zomato.com/hyderabad/36-downtown-brew-pub-jubilee-hills/info"class="text-decoration-none" target="_blank">
+            <div class="card shadow">
+                <div class="card-body">
+                    <img src="https://b.zmtcdn.com/data/pictures/7/18487737/9721e25633b2b043c301f7f64faafe72_featured_v2.jpg?output-format=webp" class="img-fluid card-img-top">
+                    <div class="d1">  
+                        <h6>36 Downtown Brew Pub</h6><span class="badge  bg-success">New<span class="bi bi-star-fill ms-1"></span></span>
+                    </div>
+                        <div class="d1"> 
+                        <p class="fst-arial">Continental, Hyderabadi..</p><p>&#8377;3,000 for two</p>
+                    </div>
+                    <div class="d1">
+                        <p>Jubilee Hills, Hyderabad</p><p class="fw-bold">925 m</p>
+                    </div>  
+                </div>
+            </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-lg-4">
+            <a href="https://www.zomato.com/hyderabad/rebel-and-rye-jubilee-hills/info" class="text-decoration-none" target="_blank">
+            <div class="card shadow">
+                <div class="card-body">
+                    <img src="https://b.zmtcdn.com/data/pictures/1/21237841/ecf01945522365bf4cd924dd773f7583_featured_v2.jpg?output-format=webp" class="img-fluid card-img-top">
+                    <div class="d1">  
+                        <h6>Rebel And Rye</h6><span class="badge bg-success">3.9<span class="bi bi-star-fill ms-1"></span></span>
+                    </div>
+                    <div class="d1"> 
+                        <p class="fst-arial">Continental, North Indian..</p><p>&#8377;₹2,200 for two</p>
+                    </div>
+                    <div class="d1">
+                        <p>Jubilee Hills, Hyderabad </p><p class="fw-bold">1.8 km</p>
+                    </div>  
+                </div>
+            </div>
+            </a>
+        </div>
+        <div class="col-lg-4">
+            <a href="https://www.zomato.com/hyderabad/babylon-bar-and-kitchen-jubilee-hills/info" class="text-decoration-none" target="_blank">
+            <div class="card shadow">
+                <div class="card-body">
+                    <img src="https://b.zmtcdn.com/data/pictures/7/21039297/cec093ca624d7b82927af06acb104daf_featured_v2.jpg" class="img-fluid card-img-top">
+                    <div class="d1">  
+                        <h6>Babylon Bar And Kitchen</h6><span class="badge bg-success">4.4<span class="bi bi-star-fill ms-1"></span></span>
+                    </div>
+                    <div class="d1"> 
+                        <p class="fst-arial">Asian, Sushi, Chinese, Italian..</p><p>&#8377;₹3,500 for two</p>
+                    </div>
+                    <div class="d1">
+                        <p>Jubilee Hills, Hyderabad</p><p class="fw-bold">173 m</p>
+                    </div>  
+                </div>
+            </div>
+            </a>    
+        </div>
+        <div class="col-lg-4">
+            <a  href="https://www.zomato.com/hyderabad/red-rhino-hitech-city/info" class="text-decoration-none" target="_blank">
+            <div class="card shadow">
+                <div class="card-body">
+                    <img src="https://b.zmtcdn.com/data/pictures/0/20236950/da539860e558621893c9dc28d3dab66e_featured_v2.jpg" class="img-fluid card-img-top">
+                    <div class="d1">  
+                        <h6>Red rhino</h6><span class="badge bg-success">4.5<span class="bi bi-star-fill ms-1"></span></span>
+                    </div>
+                    <div class="d1"> 
+                        <p>Asian, North Indian, Conti..</p><p>&#8377;₹2,500 for two</p>
+                    </div>
+                    <div class="d1">
+                        <p>Hitech City, Hyderabad</p><p class="fw-bold">3.1 km</p>
+                    </div>  
+                </div>
+            </div>
+            </a>
+        </div>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-lg-4">
+            <a href="https://www.zomato.com/hyderabad/wild-goat-madhapur/info" class="text-decoration-none" target="_blank">
+            <div class="card shadow">
+                <div class="card-body">
+                    <img src="https://b.zmtcdn.com/data/pictures/6/20730326/4c2eb01da8be943237b3b3aac80a31e6_featured_v2.jpg" class="img-fluid card-img-top">
+                    <div class="d1">
+                        <h6>Wild Goat</h6><span class="badge bg-success">4.3<span class="bi bi-star-fill ms-1"></span></span>
+                    </div>
+                    <div class="d1">
+                        <p>Cafe, Coffee, Continental, As,...</p><p>&#8377;1,800 for two</p>
+                    </div>
+                    <div class="d1">
+                        <p>Madhapur, Hyderabad</p><p class="fw-bold">1.8 km</p>
+                    </div>
+                </div>
+            </div>
+            </a>
+        </div>
+        <div class="col-lg-4">
+            <a href="https://www.zomato.com/hyderabad/farzi-cafe-jubilee-hills/info" class="text-decoration-none" target="_blank">
+            <div class="card shadow">
+                <div class="card-body">
+                    <img src="https://b.zmtcdn.com/data/pictures/5/18607685/b6db9a6d50f0880c9e640815daddf832_featured_v2.jpg" class="img-fluid card-img-top">
+                    <div class="d1">
+                        <h6>Farzi Cafe</h6><span class="badge bg-success">4.5<span class="bi bi-star-fill ms-1"></span></span>
+                    </div>
+                    <div class="d1">
+                        <p>Modern Indian, North Indian,...</p><p>&#8377;2,000 for two</p>
+                    </div>
+                    <div class="d1">
+                        <p>Jubilee Hills, Hyderabad</p><p class="fw-bold">378 m</p>
+                    </div>
+                </div>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-lg-4">
+            <a href="https://www.zomato.com/hyderabad/halo-cocktail-bar-kitchen-jubilee-hills/info" class="text-decoration-none" target="_blank">
+            <div class="card shadow">
+                <div class="card-body">
+                    <img src="https://b.zmtcdn.com/data/pictures/8/20815838/4dcc06102dcb361b89ff0f76a3a8979e_featured_v2.jpg" class="img-fluid card-img-top">
+                    <div class="d1">
+                        <h6>Halo Cocktail Bar & Kitchen</h6><span class="badge bg-success">4.8<span class="bi bi-star-fill ms-1"></span></span>
+                    </div>
+                    <div class="d1">
+                        <p>Bar Food, North Indian, Ch,...</p><p>&#8377;2,200 for two</p>
+                    </div>
+                    <div class="d1">
+                        <p>Jubilee Hills, Hyderabad</p><p class="fw-bold">608 m</p>
+                    </div>
+                </div>
+            </div>
+            </a>
+        </div>
+
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-lg-4">
+            <a href="https://www.zomato.com/hyderabad/habitat-cafe-3-banjara-hills/info" class="text-decoration-none" target="_blank">
+            <div class="card shadow">
+                <div class="card-body">
+                    <img src="https://b.zmtcdn.com/data/pictures/0/21058610/c1f9c05e9b0402a1eaeac91de3db3834_featured_v2.jpg" class="img-fluid card-img-top">
+                    <div class="d1">
+                        <h6>Habitat Cafe</h6><span class="badge bg-success">New<span class="bi bi-star-fill ms-1"></span></span>
+                    </div>
+                    <div class="d1">
+                        <p>Cafe, Coffee, Beverages..</p><p>&#8377;1,200 for two</p>
+                    </div>
+                    <div class="d1">
+                        <p>Banjara Hills, Hyderabad</p><p class="fw-bold">3.9 km</p>
+                    </div>
+                </div>
+            </div>
+            </a>
+        </div>
+        <div class="col-lg-4">
+            <a href="https://www.zomato.com/hyderabad/mindspace-social-hitech-city/info" class="text-decoration-none" target="_blank">
+            <div class="card shadow">
+                <div class="card-body">
+                    <img src="https://b.zmtcdn.com/data/pictures/8/20954918/2ec44a337fb2eba9846dbfd39e85ad09_featured_v2.jpg" class="img-fluid card-img-top">
+                    <div class="d1">
+                        <h6>Mindspace Social</h6><span class="badge bg-success">4.2<span class="bi bi-star-fill ms-1"></span></span>
+                    </div>
+                    <div class="d1">
+                        <p>Hyderabadi, Kebab, Momo..</p><p>&#8377;2,000 for two</p>
+                    </div>
+                    <div class="d1">
+                        <p>Hitech City, Hyderabad</p><p class="fw-bold">3.2 km</p>
+                    </div>
+                </div>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-lg-4">
+            <a href="https://www.zomato.com/hyderabad/sahibs-barbeque-by-ohris-madhapur/info" class="text-decoration-none" target="_blank">
+            <div class="card shadow">
+                <div class="card-body">
+                    <img src="https://b.zmtcdn.com/data/pictures/5/20961945/282e6d7cd113d90e6f1dadeb35cd3001_featured_v2.jpg" class="img-fluid card-img-top">
+                    <div class="d1">
+                        <h6>Sahib’s Barbeque By Ohri’s</h6><span class="badge bg-success">4.5<span class="bi bi-star-fill ms-1"></span></span>
+                    </div>
+                    <div class="d1">
+                        <p>South Indian, North Indian, B..</p><p>&#8377;1,500 for two</p>
+                    </div>
+                    <div class="d1">
+                        <p>Jubilee Hills, Hyderabad</p><p class="fw-bold">900 m</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-lg-4">
+            <a href="https://www.zomato.com/hyderabad/kortyard-cafe-jubilee-hills/info" class="text-decoration-none" target="_blank">
+            <div class="card shadow">
+                <div class="card-body">
+                    <img src="https://b.zmtcdn.com/data/pictures/3/20698313/d137c2e9c4e4e0015726d34d62d27934_featured_v2.jpg" class="img-fluid card-img-top">
+                    <div class="d1">
+                        <h6>Kortyard Cafe</h6><span class="badge bg-success">4.4<span class="bi bi-star-fill ms-1"></span></span>
+                    </div>
+                    <div class="d1">
+                        <p>Cafe, Coffee, Asian, Contine..</p><p>&#8377;1,400 for two</p>
+                    </div>
+                    <div class="d1">
+                        <p>Jubilee Hills, Hyderabad</p><p class="fw-bold">2 km</p>
+                    </div>
+                </div>
+            </div>
+            </a>
+        </div>
+        <div class="col-lg-4">
+            <a href="https://www.zomato.com/hyderabad/masterpiece-gachibowli/info" class="text-decoration-none" target="_blank">
+            <div class="card shadow">
+                <div class="card-body">
+                    <img src="https://b.zmtcdn.com/data/pictures/2/19878202/63274232c609a0463e6eaeb28bb1277f_featured_v2.jpg" class="img-fluid card-img-top">
+                    <div class="d1">
+                        <h6>Forge Breu - Hous</h6><span class="badge bg-success">4.4<span class="bi bi-star-fill ms-1"></span></span>
+                    </div>
+                    <div class="d1">
+                        <p>Finger Food, Continental, N..</p><p>&#8377;2,500 for two</p>
+                    </div>
+                    <div class="d1">
+                        <p>Jubilee Hills, Hyderabad</p><p class="fw-bold">888 m</p>
+                    </div>
+                </div>
+            </div>
+         </a>
+        </div>
+        
+        <div class="col-lg-4">
+            <a href="https://www.zomato.com/hyderabad/makau-jubilee-hills/info" class="text-decoration-none" target="_blank">
+            <div class="card shadow">
+                <div class="card-body">
+                    <img src="https://b.zmtcdn.com/data/pictures/4/19982534/1e983c74000b2d5490e9d38baff441f5_featured_v2.jpg" class="img-fluid card-img-top">
+                    <div class="d1">
+                        <h6>Makau</h6><span class="badge bg-success">4.2<span class="bi bi-star-fill ms-1"></span></span>
+                    </div>
+                    <div class="d1">
+                        <p>North Indian, Beverages,..</p><p>&#8377;2,200 for two</p>
+                    </div>
+                    <div class="d1">
+                        <p>Road 36,Jubilee Hills, Hyderabad</p><p class="fw-bold">1.1 km</p>
+                    </div>
+                </div>
+            </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-lg-4">
+            <a href="https://www.zomato.com/hyderabad/vivaha-bhojanambu-kitchen-bar-jubilee-hills/info" class="text-decoration-none" target="_blank">
+            <div class="card shadow">
+                <div class="card-body">
+                    <img src="https://b.zmtcdn.com/data/pictures/chains/0/18423520/6b4dd4b61fef2fbd4d8ad095b7019139_featured_v2.jpg" class="img-fluid card-img-top">
+                    <div class="d1">
+                        <h6>Vivaha Bhojanambu Kitchen & B...</h6><span class="badge bg-success">4.0<span class="bi bi-star-fill ms-1"></span></span>
+                    </div>
+                    <div class="d1">
+                        <p>Andhra, Biryani, South India,..</p><p>&#8377;1,400 for two</p>
+                    </div>
+                    <div class="d1">
+                        <p>Jubilee Hills, Hyderabad</p><p class="fw-bold">904 m</p>
+                    </div>
+                </div>
+            </div>
+            </a>
+        </div>
+        <div class="col-lg-4">
+            <a href="https://www.zomato.com/hyderabad/36-downtown-brew-pub-jubilee-hills/info" class="text-decoration-none" target="_blank">
+            <div class="card shadow">
+                <div class="card-body">
+                    <img src="https://b.zmtcdn.com/data/pictures/7/18487737/9721e25633b2b043c301f7f64faafe72_featured_v2.jpg" class="img-fluid card-img-top">
+                    <div class="d1">
+                        <h6>36 Downtown Brew Pub</h6><span class="badge bg-success">New<span class="bi bi-star-fill ms-1"></span></span>
+                    </div>
+                    <div class="d1">
+                        <p>Continental, Hyderabadi, F,..</p><p>&#8377;3,000 for two</p>
+                    </div>
+                    <div class="d1">
+                        <p>Road 36,Jubilee Hills, Hyderabad</p><p class="fw-bold">925 m</p>
+                    </div>         
+                </div>
+            </div>
+            </a>
+        </div>
+        
+        <div class="col-lg-4">
+            <a href="https://www.zomato.com/hyderabad/noho-progressive-asian-house-jubilee-hills/info" class="text-decoration-none" target="_blank">
+            <div class="card shadow">
+                <div class="card-body">
+                    <img src="https://b.zmtcdn.com/data/pictures/5/21166575/aed1cca60471798e67134205b09482b5_featured_v2.jpg" class="img-fluid card-img-top">
+                    <div class="d1">
+                        <h6>Noho - Progressive Asian Hous</h6><span class="badge bg-success">New<span class="bi bi-star-fill ms-1"></span></span>
+                    </div>
+                    <div class="d1">
+                        <p>Bar Food, Asian, Japanese,..</p><p>&#8377;3,000 for two</p>
+                    </div>
+                    <div class="d1">
+                        <p>Jubilee Hills, Hyderabad</p>
+                    </div>   
+                    <div class="d1">
+                        <p class="text-danger">Closes in 1 hour 10 minutes</p><p class="fw-bold">630 m</p>
+                    </div>      
+                </div>
+            </div>
+            </a>
+        </div>
+
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <div>
+        <span class=" c1">Explore options near me</span>
+        <br>
+        <br>
+        <!-- <div class="row mt-3">
+            <div class="col-lg-9">
+                <div class="card shadow">
+                    <div class="card-header" data-bs-toggle="collapse" data-bs-target="#body">
+                        <h3 class="start-0 end-4">Popular cuisines near me  <i class="bi bi-chevron-down"></i></h3>
+                
+                    </div>
+                    <div class="collapse" id="body">
+                        <div class="card-body">
+                            <ul>
+                            <li>Bakery food near me</li>
+                            <li>Beverages food near me</li>
+                            <li>Biryani food near me</li>
+                            <li>Burger food near me</li>
+                        </ul>
+                        <ul>
+                            <li>Chinese food near me</li>
+                            <li>Desserts food near me</li>
+                            <li>Hyderabadi food near me</li>
+                            <li>Ice Cream food near me</li>
+                        </ul>
+                        <ul>
+                            <li>Kebab food near me</li>
+                            <li>Mughlai food near me</li>
+                            <li>North Indian food near me</li>
+                            <li>Pizza food near me</li>
+                        </ul>
+                        <ul>
+                            <li>Sandwich food near me</li>
+                            <li>Seafood food near me</li>
+                            <li>Shawarma food near me</li>
+                            <li>Shake food near me</li>
+                        </ul>
+                        <ul>
+                            <li>Sichuan food near me</li>
+                            <li>South Indian food near me</li>
+                            <li>Street food near me</li>
+                            <li>Tea food near me</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+   <div class="row mt-3">
+        <div class="col-lg-9">
+            <div class="card shadow">
+                <div class="card-header" data-bs-toggle="collapse" data-bs-target="#B2">
+                    <h3>Popular restaurant types near me</h3>
+                </div>
+    
+                <div class="collapse" id="B2">
+                    <div class="card-body">
+                        <ul>
+                        <li>Bakeries near me</li>
+                        <li>Bars near me</li>
+                        <li>Bhojanalya near me</li>
+                        <li>Cafés near me</li>
+                    </ul>
+                    <ul>
+                        <li>Bhojanalya near me</li>
+                        <li>Bhojanalya near me</li>
+                        <li>Cafés near me</li>
+                        <li>Casual Dining near me</li>
+                    </ul>
+                    <ul>
+                        <li>Clubs near me</li>
+                        <li>Cocktail Bars near me</li>
+                        <li>Confectioneries near me</li>
+                        <li>Dessert Parlors near me</li>
+                    </ul>  
+                    <ul>
+                        <li>Dhabas near me</li>
+                        <li>Fine Dining near me</li>
+                        <li>Food Courts near me</li>
+                        <li>Food Trucks near me</li>
+                    </ul>
+                    <ul>
+                        <li>Kiosks near me</li>
+                        <li>Lounges near me</li>
+                        <li>Microbreweries near me</li>
+                        <li>Sweet Shops near me</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="row mt-3">
+    <div class="col-lg-9">
+        <div class="card shadow">
+        <div class="card-header" data-bs-toggle="collapse" data-bs-target="#B3">
+        <h3>Biryani Restaurants Near Me</h3>
+        </div>
+        <div class="collapse" id="B3">
+        <div class="card-body">
+            <p>Wikipedia citation:
+                "Biryani (/bɜːrˈjɑːni/) is a mixed rice dish originated by Muslims of the Indian subcontinent. It is made with Indian spices, rice, and meat (chicken, beef, goat, lamb, prawn, or fish), and sometimes, in addition, eggs and/or vegetables such as potatoes in certain regional varieties. Biryani is popular throughout the Indian subcontinent, as well as among its diaspora. It is also prepared in other regions such as parts of Afghanistan, Iran and Iraq."</p>
+        </div>
+        </div>
+</div>
+</div>
+</div>
+
+<div class="row mt-3">
+    <div class="col-lg-9">
+        <div class="card shadow">
+            <div class="card-header" data-bs-toggle="collapse" data-bs-target="#B4">
+                <h3>Top Restaurant Chains</h3>
+            </div>
+            <div class="collapse" id="B4">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <table>
+                                <tr>Bikanervala</tr>
+                                <tr>Krispy Kreme</tr>
+                            </table>
+                        </div>
+                    
+                        <div class="col-lg-2">
+                            <table>
+                                <tr>Burger King</tr>
+                                <tr>McDonald's</tr>
+                            </table> 
+                        </div>
+                        <div class="col-lg-2">
+                            <table>
+                                <tr>Burger Singh</tr>
+                                <tr>Pizza Hut</tr>
+                            </table>
+                        </div>
+
+                        <div class="col-lg-2">
+                            <table>
+                                <tr>Domino'sKFC</tr>
+                                <tr>Subway WOW! Momo</tr>
+                            </table>      
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-3">
+    <div class="col-lg-9">
+        <div class="card shadow">
+            <div class="card-header" data-bs-toggle="collapse" data-bs-target="#B5">
+                <h3>Cities We Deliver To</h3>
+            </div>
+            <div class="collapse" id="B5">
+                <div class="card-body">
+                    <table class="row">
+                        <tbody class="col-lg-3">
+                            <tr>
+                                <td>Delhi NCR</td>
+                            </tr>
+                            <tr>
+                                <td>Kolkata</td>
+                            </tr>
+                            <tr>
+                                <td>Vijayawada</td>
+                            </tr>
+                            <tr>
+                                <td>Bengaluru</td>
+                            </tr>
+                            <tr>
+                                <td>Hyderabad</td>
+                            </tr>
+                            <tr>
+                                <td>Chennai</td>
+                            </tr>
+                            <tr>
+                                <td>Vijayawada</td>
+                            </tr>
+                            <tr><td>Hyderabad</td></tr>
+                            <tr><td>Thrissur</td></tr>
+                            <tr><td>Jodhpur</td></tr>
+                        </tbody>
+                        <tbody class="col-lg-3">
+                            <tr><td>Ahmedabad</td></tr>
+                            <tr><td>Kolkata</td></tr>
+                            <tr><td>Mumbai</td></tr>
+                            <tr><td>Shimla</td></tr>
+                            <tr><td>Nagpur</td></tr>
+                            <tr><td>Jammu</td></tr>
+                            <tr><td>Mangalore</td></tr>
+                            <tr><td>Kochi</td></tr>
+                            <tr><td>Agra</td></tr>
+                            <tr><td>Manipal</td></tr>
+                        </tbody>
+
+                        <tbody class="col-lg-3">
+                            <tr><td>Jaipur</td></tr>
+                            <tr><td>Gawhati</td></tr>
+                            <tr><td>Mysore</td></tr>
+                            <tr><td>Bhubaneswar</td></tr>
+                            <tr><td>Varanasi</td></tr>
+                            <tr><td>Visakhapatnam</td></tr>
+                            <tr><td>Patna</td></tr>
+                            <tr><td>Rajkot</td></tr>
+                            <tr><td>Manali</td></tr>
+                            <tr><td>Jodhpur</td></tr>
+                        </tbody>
+                        <tbody class="col-lg-3">
+                            <tr><td>Nasik</td></tr>
+                            <tr><td>Kolkata</td></tr>
+                            <tr><td>Haridwar</td></tr>
+                            <tr><td>Pushkar</td></tr>
+                            <tr><td>Madurai</td></tr>
+                            <tr><td>Udaipur</td></tr>
+                            <tr><td>Ajmer</td></tr>
+                            <tr><td>Kota</td></tr>
+                            <tr><td>Ludhiana</td></tr>
+                            <tr><td>Coimbatore</td></tr>
+                            <tr><td><a href="https://www.zomato.com/delivery-cities" target="_blank" class="hover text-dark fw-bold">All delivery cities</a></td></tr>
+                         </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+      -->
+
+    <div class="row mt-3">
+        <div class="col-lg-12">
+            <div class="accordion" id="main">              
+                <div class="accordion-item shadow">
+                    <div class="accordion-header" data-bs-toggle="collapse" data-bs-target="#A">
+                        <button class="accordion-button fs-3 bg-white text-dark">Popular cuisines near me</button>
+                    </div>
+                    <div class="collapse accordion-collapse" id="A" data-bs-parent="#main">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Bakery food near me</li>
+                                <li>Beverages food near me</li>
+                                <li>Biryani food near me</li>
+                                <li>Burger food near me</li>
+                            </ul>
+                            <ul>
+                                <li>Chinese food near me</li>
+                                <li>Desserts food near me</li>
+                                <li>Hyderabadi food near me</li>
+                                <li>Ice Cream food near me</li>
+                            </ul>
+                            <ul>
+                                <li>Kebab food near me</li>
+                                <li>Mughlai food near me</li>
+                                <li>North Indian food near me</li>
+                                <li>Pizza food near me</li>
+                            </ul>
+                            <ul>
+                                <li>Sandwich food near me</li>
+                                <li>Seafood food near me</li>
+                                <li>Shawarma food near me</li>
+                                <li>Shake food near me</li>
+                            </ul>
+                            <ul>
+                                <li>Sichuan food near me</li>
+                                <li>South Indian food near me</li>
+                                <li>Street food near me</li>
+                                <li>Tea food near me</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item shadow">
+                    <div class="accordion-header" data-bs-toggle="collapse" data-bs-target="#b">
+                        <button class="accordion-button fs-3 bg-white text-dark">Popular restaurant types near me</button>
+                    </div>
+                    <div class="collapse accordion-collapse" id="b" data-bs-parent="#main">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Bakeries near me</li>
+                                <li>Bars near me</li>
+                                <li>Bhojanalya near me</li>
+                                <li>Cafés near me</li>
+                            </ul>
+                            <ul>
+                                <li>Bhojanalya near me</li>
+                                <li>Bhojanalya near me</li>
+                                <li>Cafés near me</li>
+                                <li>Casual Dining near me</li>
+                            </ul>
+                            <ul>
+                                <li>Clubs near me</li>
+                                <li>Cocktail Bars near me</li>
+                                <li>Confectioneries near me</li>
+                                <li>Dessert Parlors near me</li>
+                            </ul>  
+                            <ul>
+                                <li>Dhabas near me</li>
+                                <li>Fine Dining near me</li>
+                                <li>Food Courts near me</li>
+                                <li>Food Trucks near me</li>
+                            </ul>
+                            <ul>
+                                <li>Kiosks near me</li>
+                                <li>Lounges near me</li>
+                                <li>Microbreweries near me</li>
+                                <li>Sweet Shops near me</li>
+                            </ul> 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item shadow">
+                    <div class="accordion-header" data-bs-toggle="collapse" data-bs-target="#C">
+                        <button class="accordion-button fs-3 bg-white text-dark">About Biryani Restaurants</button>
+                    </div>
+                    <div class="collapse accordion-collapse" id="C" data-bs-parent="#main">
+                        <div class="accordion-body">
+                            <p>Wikipedia citation:
+                                "Biryani (/bɜːrˈjɑːni/) is a mixed rice dish originated by Muslims of the Indian subcontinent. It is made with Indian spices, rice, and meat (chicken, beef, goat, lamb, prawn, or fish), and sometimes, in addition, eggs and/or vegetables such as potatoes in certain regional varieties. Biryani is popular throughout the Indian subcontinent, as well as among its diaspora. It is also prepared in other regions such as parts of Afghanistan, Iran and Iraq."</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item shadow">
+                    <div class="accordion-header" data-bs-toggle="collapse" data-bs-target="#d">
+                        <button class="accordion-button fs-3 bg-white text-dark">Top Restaurant Chains</button>
+                    </div>
+                    <div class="collapse accordion-collapse" id="d" data-bs-parent="#main">
+                        <div class="accordion-body">
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <table>
+                                        <tr>Bikanervala</tr>
+                                        <td>Krispy Kreme</td>
+                                    </table>
+                                </div>
+                            
+                                <div class="col-lg-2">
+                                    <table>
+                                        <tr>Burger King</tr>
+                                        <td>McDonald's</td>
+                                    </table> 
+                                </div>
+                                <div class="col-lg-2">
+                                    <table>
+                                        <tr>Burger Singh</tr>
+                                        <td>Pizza Hut</td>
+                                    </table>
+                                </div>
+        
+                                <div class="col-lg-2">
+                                    <table>
+                                        <tr>Domino'sKFC</tr>
+                                        <td>Subway WOW! Momo</td>
+                                    </table> 
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item shadow">
+                    <div class="accordion-header" data-bs-toggle="collapse" data-bs-target="#E">
+                        <button class="accordion-button fs-3 bg-white text-dark">Cities We Deliver To</button>
+                    </div>
+                    <div class="collapse accordion-collapse" id="E" data-bs-parent="#main">
+                        <div class="accordion-body">
+                            <table class="row">
+                                <tbody class="col-lg-3">
+                                    <tr>
+                                        <td>Delhi NCR</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Kolkata</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Vijayawada</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bengaluru</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Hyderabad</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Chennai</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Vijayawada</td>
+                                    </tr>
+                                    <tr><td>Hyderabad</td></tr>
+                                    <tr><td>Thrissur</td></tr>
+                                    <tr><td>Jodhpur</td></tr>
+                                </tbody>
+                                <tbody class="col-lg-3">
+                                    <tr><td>Ahmedabad</td></tr>
+                                    <tr><td>Kolkata</td></tr>
+                                    <tr><td>Mumbai</td></tr>
+                                    <tr><td>Shimla</td></tr>
+                                    <tr><td>Nagpur</td></tr>
+                                    <tr><td>Jammu</td></tr>
+                                    <tr><td>Mangalore</td></tr>
+                                    <tr><td>Kochi</td></tr>
+                                    <tr><td>Agra</td></tr>
+                                    <tr><td>Manipal</td></tr>
+                                </tbody>
+        
+                                <tbody class="col-lg-3">
+                                    <tr><td>Jaipur</td></tr>
+                                    <tr><td>Gawhati</td></tr>
+                                    <tr><td>Mysore</td></tr>
+                                    <tr><td>Bhubaneswar</td></tr>
+                                    <tr><td>Varanasi</td></tr>
+                                    <tr><td>Visakhapatnam</td></tr>
+                                    <tr><td>Patna</td></tr>
+                                    <tr><td>Rajkot</td></tr>
+                                    <tr><td>Manali</td></tr>
+                                    <tr><td>Jodhpur</td></tr>
+                                </tbody>
+                                <tbody class="col-lg-3">
+                                    <tr><td>Nasik</td></tr>
+                                    <tr><td>Kolkata</td></tr>
+                                    <tr><td>Haridwar</td></tr>
+                                    <tr><td>Pushkar</td></tr>
+                                    <tr><td>Madurai</td></tr>
+                                    <tr><td>Udaipur</td></tr>
+                                    <tr><td>Ajmer</td></tr>
+                                    <tr><td>Kota</td></tr>
+                                    <tr><td>Ludhiana</td></tr>
+                                    <tr><td>Coimbatore</td></tr>
+                                    <tr><td><a href="https://www.zomato.com/delivery-cities" target="_blank" class="hover text-dark fw-bold">All delivery cities</a></td></tr>
+                                 </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<div class="card-footer mt-3">
+    <div class="container mt-5 hai">
+        <div class="d1">
+            <h2 class="fw-bolder  mt-4">zomato</h2>
+            <div>
+                <select>
+                    <option>India</option>
+                    <option>UAE</option>
+                    <option>South Africa</option>
+                    <option>Australia</option>
+                    <option>SriLanka</option>
+                </select>
+                <select>
+                    <option>English</option>
+                    <option>Telugu</option>
+                    <option>Spanish</option>
+                    <option>German</option>
+                    <option>Chinese</option>
+                    <option>Hindi</option>
+                    <option>Korean</option>
+                </select>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-3">
+                <table>
+                    <tr>
+                        <th>ABOUT ZOMATO</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="https://www.zomato.com/who-we-are" class="text-decoration-none text-dark" target="_blank">Who We Are</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="https://blog.zomato.com/" class="text-decoration-none text-dark" target="_blank">Blog</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="https://www.zomato.com/careers" class="text-decoration-none text-dark" target="_blank">Work With Us</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="https://www.zomato.com/investor-relations" class="text-decoration-none text-dark" target="_blank">Investor Relations</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="https://zomato.com/report-fraud" class="text-decoration-none text-dark" target="_blank">Report Fraud</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="https://blog.zomato.com/press-kit" class="text-decoration-none text-dark" target="_blank">Press Kit </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="https://www.zomato.com/contact" class="text-decoration-none text-dark" target="_blank">Contact us</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-lg-2">
+                <table>
+                    <tr>
+                        <th>ZOMAVERSE</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="https://www.zomato.com/" class="text-decoration-none text-dark" target="_blank">Zomato</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Blinkit
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Feeding India
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Hyperpure
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Zomato Live 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Zomaland
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Weather Union
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-lg-3">
+                <table>
+                    <tr>
+                        <th>FOR RESTAURENTS</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="https://www.zomato.com/" class="text-decoration-none text-dark" target="_blank">Partner With Us</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Apps For You
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-lg-2">
+                <table>
+                    <tr>
+                        <th>LEARN MORE</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="https://www.zomato.com/policies/privacy/" class="text-decoration-none text-dark">Privacy</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Security
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Terms
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Sitemap
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-lg-2">
+                <table>
+                    <tr>
+                        <th>SOCIAL LINKS</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="https://www.linkedin.com/company/zomato/?originalSubdomain=in" target="_blank"><i class="bi bi-linkedin text-primary"></i></a>
+                            <a href="https://www.instagram.com/zomato/" target="_blank"><i class="bi bi-instagram ms-2 text-danger"></i></a>
+                            <a href="https://x.com/zomato" target="_blank"><i class="bi bi-twitter-x ms-2 text-dark"></i></a>
+                            <a href="https://www.youtube.com/zomato" target="_blank"><i class="bi bi-youtube ms-2 text-danger"></i></a>
+                            <a href="https://www.facebook.com/zomato" target="_blank"><i class="bi bi-facebook ms-2 text-primary"></i></a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png" class="w-75">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png"  class="w-75">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <br>
+        <br>
+        <hr>
+        <p class="fst-italic">
+            By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective
+            owners.2008-2024 © Zomato™ Ltd. All rights reserved.
+        </p>
+        <br>
+    </div> 
+</div>          
+
+
+
+
+
+</body>
+</html>
